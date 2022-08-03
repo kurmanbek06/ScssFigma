@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background: blue;
+}
+.menu__menu1 {
+  background: blue;
+}
+.menu__menu1__menu2 {
+  width: 20px;
+  height: 20px;
+  background: blue;
+}
+.menu__menu1__menu2__menuT {
+  color: blue;
+  font-size: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
