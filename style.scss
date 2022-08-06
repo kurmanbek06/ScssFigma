@@ -6,19 +6,19 @@
   width: 1140px;
   margin: 0 auto;
 }
+$bg:rgba(59, 62, 66, 0.85);
+$tb:#E9E9E9;
 #header{
     .menu{
       height: 70px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-
       &__menuT{
         width: 199px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-
         &__menuC{
           width: 21px;
           height: 1px;
@@ -60,11 +60,7 @@
           color: #000000;
           text-decoration: none;
         }
-
       }
-
-
-
     }
   }
 #section{
@@ -101,7 +97,7 @@
         &__cyber1{
           width: 200px;
           height: 50px;
-          background: rgba(59, 62, 66, 0.85);
+          background: $bg;
           border-radius: 40px;
           border: none;
           font-family: 'Gotham Pro', sans-serif;
@@ -113,7 +109,7 @@
         &__cyber2{
           width: 320px;
           height: 50px;
-          background: #E9E9E9;
+          background: $tb;
           border-radius: 40px;
           border: none;
           font-family: 'Gotham Pro', sans-serif;
@@ -146,7 +142,6 @@
         height: 260px;
         background: #F8F8F8;
       }
-
     }
     &__cyberI{
       width: 643px;
@@ -183,7 +178,6 @@
           font-size: 18px;
           color: #000000;
         }
-
       }
       &__aboutB{
         width: 600px;
@@ -199,14 +193,14 @@
           font-family: 'Gotham Pro', sans-serif;
           font-style: normal;
           font-weight: 700;
-          background: rgba(59, 62, 66, 0.85);
+          background: $bg;
          font-size: 25px;
           color: #FFFFFF;
         }
         &__aboutF{
           width: 220px;
           height: 50px;
-          background: #E9E9E9;
+          background: $tb;
           border-radius: 40px;
           border: none;
           font-family: 'Gotham Pro', sans-serif;
@@ -217,8 +211,6 @@
         }
       }
     }
-
-
   }
   .bene{
     &__bene1{
@@ -298,7 +290,7 @@
             font-family: 'Gotham Pro', sans-serif;
             font-style: normal;
             font-weight: 700;
-            background: rgba(59, 62, 66, 0.85);
+            background: $bg;
             font-size: 25px;
             color: #FFFFFF;
           }
@@ -306,10 +298,8 @@
         &__beneP{
           width: 643px;
           height: 650px;
-
         }
         }
-
       }
     }
   }
